@@ -1,0 +1,11 @@
+name: genghisapp
+summary: Genghis  
+maintainer: Charles Butler <chuck@dasroot.net> 
+description: |
+   More Genghis
+categories:
+  - app
+subordinate: false
+provides: 
+  website:
+   interface: http

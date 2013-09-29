@@ -1,0 +1,6 @@
+#!/bin/bash
+set -ex
+
+apt-get install -y ruby1.9.3 rubygems 
+HOME=/root gem install genghisapp bson_ext --no-ri --no-rdoc
+
